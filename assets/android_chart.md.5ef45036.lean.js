@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,a as l}from"./app.b4e2bfe8.js";const e="/blog/img/chart.jpg",h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"android/chart.md"}'),p={name:"android/chart.md"},t=l("",13),o=[t];function c(i,r,C,A,d,D){return a(),n("div",null,o)}const u=s(p,[["render",c]]);export{h as __pageData,u as default};
