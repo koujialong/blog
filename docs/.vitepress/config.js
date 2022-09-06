@@ -26,6 +26,7 @@ module.exports = {
           text: 'Android',
           items: [
             { text: 'mpAndroidChart', link: '/android/chart' },
+            { text: 'test测试', link: '/test/test' },
           ]
         }
       ]
