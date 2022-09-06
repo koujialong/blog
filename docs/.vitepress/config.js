@@ -16,7 +16,7 @@ module.exports = {
   ],
   // 主题配置
   themeConfig: {
-    siteTitle: '测试标题',
+    siteTitle: 'karl blog',
     repo: "vuejs/vitepress", // 你的 github 仓库地址，网页的右上角会跳转
     //   头部导航
     nav: [{ text: "首页", link: "/test/test" }],
@@ -26,7 +26,7 @@ module.exports = {
           text: 'Android',
           items: [
             { text: 'mpAndroidChart', link: '/android/chart' },
-            { text: 'test测试', link: '/test/test' },
+            { text: 'yr', link: '/test/test' },
           ]
         }
       ]
