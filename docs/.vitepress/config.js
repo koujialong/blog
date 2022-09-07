@@ -19,16 +19,47 @@ module.exports = {
     siteTitle: 'karl blog',
     repo: "vuejs/vitepress", // 你的 github 仓库地址，网页的右上角会跳转
     //   头部导航
-    nav: [{ text: "首页", link: "/test/test" }],
+    nav: nav(),
     //   //   侧边导航
-    sidebar: [
-        {
-          text: 'Android',
-          items: [
-            { text: 'mpAndroidChart', link: '/android/chart' },
-            { text: 'yr', link: '/test/test' },
-          ]
-        }
-      ]
+    sidebar: {
+      '/fe/': sideBarFe()
+    },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2022present Karl'
+    },
   },
 };
+
+function nav() {
+  return [
+    {text: '前端', link: '/fe/fe-home.md', activeMatch: '/fe/'}
+  ]
+}
+
+function sideBarFe() {
+  return [
+    {
+      text:'js',
+      collapsible:true,
+      items:[
+        {text:'js基础',link:'/fe/js/index.md'}
+      ]
+    },
+    {
+      text:'css',
+      collapsible:true,
+      items:[
+        {text:'css基础',link:'/fe/css/index.md'}
+      ]
+    },
+    {
+      text:'vue',
+      collapsible:true,
+      items:[
+        {text:'vue基础',link:'/fe/vue/index.md'}
+      ]
+    }
+  ]
+}
+
