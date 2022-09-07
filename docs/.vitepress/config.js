@@ -1,7 +1,7 @@
 module.exports = {
-  title: "Karl", // 网站标题
-  description: "", //网站描述
-  base: "/blog/", //  部署时的路径 默认 /  可以使用二级地址 /base/
+  title: "Karl's blog", // 网站标题
+  description: "Karl's blog", //网站描述
+  base: "/blog", //  部署时的路径 默认 /  可以使用二级地址 /base/
   // lang: 'en-US', //语言
   // 网页头部配置，引入需要图标，css，js
   head: [
@@ -16,11 +16,10 @@ module.exports = {
   ],
   // 主题配置
   themeConfig: {
-    siteTitle: 'karl blog',
-    repo: "vuejs/vitepress", // 你的 github 仓库地址，网页的右上角会跳转
+    siteTitle: 'Karl\'s Blog',
     //   头部导航
     nav: nav(),
-    //   //   侧边导航
+    //   侧边导航
     sidebar: {
       '/fe/': sideBarFe()
     },
@@ -58,7 +57,7 @@ function sideBarFe() {
       collapsible:true,
       items:[
         {text:'vue基础',link:'/fe/vue/index.md'},
-        {text:'VitePress GitIO搭建博客',link:'/fe/vue/vite-press.md'}
+        {text:'VitePress搭建博客',link:'/fe/vue/vite-press.md'}
       ]
     }
   ]

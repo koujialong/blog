@@ -77,9 +77,9 @@ module.exports = {
   themeConfig: {
     siteTitle: 'karl blog',
     repo: "vuejs/vitepress", // 你的 github 仓库地址，网页的右上角会跳转
-    //   头部导航
+    // 头部导航
     nav: nav(),
-    //   //   侧边导航
+    // 侧边导航
     sidebar: {
       '/fe/': sideBarFe()
     },
