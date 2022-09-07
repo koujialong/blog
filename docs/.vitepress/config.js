@@ -10,7 +10,7 @@ module.exports = {
       "link",
       {
         rel: "icon",
-        href: "/img/linktolink.png", //图片放在public文件夹下
+        href: "/img/blog.png", //图片放在public文件夹下
       },
     ],
   ],
@@ -57,7 +57,8 @@ function sideBarFe() {
       text:'vue',
       collapsible:true,
       items:[
-        {text:'vue基础',link:'/fe/vue/index.md'}
+        {text:'vue基础',link:'/fe/vue/index.md'},
+        {text:'VitePress GitIO搭建博客',link:'/fe/vue/vite-press.md'}
       ]
     }
   ]
