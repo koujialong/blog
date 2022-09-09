@@ -39,27 +39,39 @@ function nav() {
 function sideBarFe() {
   return [
     {
-      text:'js',
-      collapsible:true,
-      items:[
-        {text:'js基础',link:'/fe/js/index.md'}
+      text: 'js',
+      collapsible: true,
+      items: [
+        {text: 'js基础', link: '/fe/js/index.md'}
       ]
     },
     {
-      text:'css',
-      collapsible:true,
-      items:[
-        {text:'css基础',link:'/fe/css/index.md'}
+      text: 'css',
+      collapsible: true,
+      items: [
+        {text: 'css基础', link: '/fe/css/index.md'}
       ]
     },
     {
-      text:'vue',
-      collapsible:true,
-      items:[
-        {text:'vue基础',link:'/fe/vue/index.md'},
-        {text:'VitePress搭建博客',link:'/fe/vue/vite-press.md'}
+      text: 'vue',
+      collapsible: true,
+      items: [
+        {text: 'VitePress搭建博客', link: '/fe/vue/vite-press.md'},
+        {text: 'window.onresize Vue坑点', link: '/fe/vue/window-onresize.md'},
       ]
-    }
+    },
+    {
+      text: 'vue3',
+      collapsible: true,
+      items: [
+        {text: 'reactive', link: '/fe/vue3/reactive.md'},
+        {text: 'ref', link: '/fe/vue3/ref.md'},
+        {text: '计算属性', link: '/fe/vue3/computed.md'},
+        {text: '侦听器', link: '/fe/vue3/watch.md'},
+        {text: '生命周期', link: '/fe/vue3/lifecycle.md'},
+        {text: '模板引用', link: '/fe/vue3/template-ref.md'}
+      ]
+    },
   ]
 }
 

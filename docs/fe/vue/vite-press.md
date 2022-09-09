@@ -1,23 +1,35 @@
 # VitePress GitHub Pages搭建博客
+
 ## 创建项目
+
 ### 创建工程文件夹
+
 ```shell
 $ mkdir vitepress-starter && cd vitepress-starter
 ```
+
 ### 初始化工程
+
 ```shell
 $ yarn init
 ```
+
 ### 初始化 VitePress,添加VitePress到工程
+
 ```shell
 $ yarn add --dev vitepress vue
 ```
+
 ### 创建第一个博客
+
 ```shell
 $ mkdir docs && echo '# Hello VitePress' > docs/index.md
 ```
+
 ### 配置开发环境
+
 添加脚本到`package.json`
+
 ```json
 {
   ...
@@ -29,11 +41,15 @@ $ mkdir docs && echo '# Hello VitePress' > docs/index.md
   ...
 }
 ```
+
 ### 启动本地开发环境
+
 ```shell
 $ yarn docs:dev
 ```
+
 ### 添加页面
+
 现在向项目中添加更多的页面，例如`blog.md`,你的工程结构可以像下面这样
 
 ```
@@ -43,9 +59,12 @@ $ yarn docs:dev
 │  └─ index.md
 └─ package.json
 ```
+
 ## 配置VitePress
+
 不需要任何配置，我们可以看到一个基础的VitePress页面,你也可以去手动的配置我们的VitePress。在`/docs`目录下创建`.vitepress`文件夹,然后创建
 `config.js`到这个文件夹下，你的工程结构如下
+
 ```
 .
 ├─ docs
@@ -55,7 +74,9 @@ $ yarn docs:dev
 └─ package.json
 
 ```
+
 配置下`.vitepress/config.js`,基础配置如下
+
 ```javascript
 module.exports = {
   title: "博客", // 网站标题
@@ -108,46 +129,54 @@ function sideBarFe() {
   ]
 }
 ```
+
 ## 创建Github Pages、自动化部署
+
 ### 配置GitHub项目
+
 1. 创建github项目，项目权限必须是public,private需要付费才能使用pages
 2. 在仓库下，单击Settings（设置）。
 3. 在`Build and deployment`下的`Source`选择一个发布分支![img](/img/publishing-source-drop-down.png)
 4. 选择发布源的文件夹![img](/img/publishing-source-folder-drop-down.png)
 5. 点击保存
+
 ### 配置自动化部署
-   1. 选择Action目录,点击`New workflow`![img](/img/workflow.png)
-   2. 选择Simple workflow,命名为`deploy.yml`，配置如下
-   ```yaml
-   name: Deploy
 
-   on:
-     push:
-       branches:
-         - main
+1. 选择Action目录,点击`New workflow`![img](/img/workflow.png)
+2. 选择Simple workflow,命名为`deploy.yml`，配置如下
 
-   jobs:
-     deploy:
-       runs-on: ubuntu-latest
-       steps:
-         - uses: actions/checkout@v2
-         - uses: actions/setup-node@v3
-           with:
-             node-version: 16
-             cache: yarn
-         - run: yarn install --frozen-lockfile
+```yaml
+name: Deploy
 
-         - name: Build
-           run: yarn docs:build
+on:
+  push:
+    branches:
+      - main
 
-         - name: Deploy
-           uses: peaceiris/actions-gh-pages@v3
-           with:
-             github_token: ${{ secrets.GITHUB_TOKEN }}
-             publish_dir: docs/.vitepress/dist
-   ```
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: yarn
+      - run: yarn install --frozen-lockfile
+
+      - name: Build
+        run: yarn docs:build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vitepress/dist
+```
+
 3. 现在提交你的项目到`main`分支
 4. 选择`gh-pages`分支作为你的GitHub Pages来源，现在你每次推送都会自动部署到Github Pages
-## 最终成果
-![img](/img/vitepress.png)
 
+## 最终成果
+
+![img](/img/vitepress.png)
