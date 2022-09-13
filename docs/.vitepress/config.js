@@ -69,7 +69,8 @@ function sideBarFe() {
         {text: '计算属性', link: '/fe/vue3/computed.md'},
         {text: '侦听器', link: '/fe/vue3/watch.md'},
         {text: '生命周期', link: '/fe/vue3/lifecycle.md'},
-        {text: '模板引用', link: '/fe/vue3/template-ref.md'}
+        {text: '模板引用', link: '/fe/vue3/template-ref.md'},
+        {text: '组件', link: '/fe/vue3/component.md'}
       ]
     },
   ]
