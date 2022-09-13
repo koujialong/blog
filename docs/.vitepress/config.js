@@ -49,7 +49,8 @@ function sideBarFe() {
       text: 'ts',
       collapsible: true,
       items: [
-        {text: 'interface 接口', link: '/fe/ts/interface.md'}
+        {text: 'interface 接口', link: '/fe/ts/interface.md'},
+        {text: 'class 类', link: '/fe/ts/class.md'}
       ]
     },
     {
