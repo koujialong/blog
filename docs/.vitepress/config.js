@@ -52,7 +52,8 @@ function sideBarFe() {
         {text: 'interface 接口', link: '/fe/ts/interface.md'},
         {text: 'class 类', link: '/fe/ts/class.md'},
         {text: 'function 函数', link: '/fe/ts/function.md'},
-        {text: 'generic 泛型', link: '/fe/ts/generic.md'}
+        {text: 'generic 泛型', link: '/fe/ts/generic.md'},
+        {text: 'enum 枚举', link: '/fe/ts/enum.md'}
       ]
     },
     {
