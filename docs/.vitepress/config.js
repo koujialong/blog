@@ -53,7 +53,10 @@ function sideBarFe() {
         {text: 'class 类', link: '/fe/ts/class.md'},
         {text: 'function 函数', link: '/fe/ts/function.md'},
         {text: 'generic 泛型', link: '/fe/ts/generic.md'},
-        {text: 'enum 枚举', link: '/fe/ts/enum.md'}
+        {text: 'enum 枚举', link: '/fe/ts/enum.md'},
+        {text: '类型推论', link: '/fe/ts/type-inference.md'},
+        {text: '类型兼容性', link: '/fe/ts/type-compatibility.md'},
+        {text: '高级类型', link: '/fe/ts/high-level-types.md'},
       ]
     },
     {
