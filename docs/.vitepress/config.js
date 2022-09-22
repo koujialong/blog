@@ -21,7 +21,8 @@ module.exports = {
     nav: nav(),
     //   侧边导航
     sidebar: {
-      '/fe/': sideBarFe()
+      '/fe/': sideBarFe(),
+      '/book/': sideBarBook()
     },
     footer: {
       message: 'Released under the MIT License.',
@@ -32,7 +33,20 @@ module.exports = {
 
 function nav() {
   return [
-    {text: '前端', link: '/fe/fe-home.md', activeMatch: '/fe/'}
+    {text: '前端', link: '/fe/fe-home.md', activeMatch: '/fe/'},
+    {text: '读书笔记', link: '/book/principles-of-economics-macro.md', activeMatch: '/book/'}
+  ]
+}
+
+function sideBarBook() {
+  return [
+    {
+      text: '经济',
+      collapsible: true,
+      items: [
+        {text: '经济学原理-宏观(曼昆)', link: '/book/principles-of-economics-macro.md'}
+      ]
+    },
   ]
 }
 
@@ -84,7 +98,8 @@ function sideBarFe() {
         {text: '侦听器', link: '/fe/vue3/watch.md'},
         {text: '生命周期', link: '/fe/vue3/lifecycle.md'},
         {text: '模板引用', link: '/fe/vue3/template-ref.md'},
-        {text: '组件', link: '/fe/vue3/component.md'}
+        {text: '组件', link: '/fe/vue3/component.md'},
+        {text: 'React Vue Hooks对比', link: '/fe/vue3/vue-react-hooks.md'}
       ]
     },
   ]
