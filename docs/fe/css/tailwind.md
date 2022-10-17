@@ -253,7 +253,7 @@ module.exports = {
 * 平移 translate-x-0|translate-y-0
 * 倾斜 skew-x-0|skew-y-0
 
-11. 交互
+### 交互
 * 光标效果 cursor-auto|cursor-default|cursor-pointer|cursor-wait|cursor-text|cursor-move|cursor-help|cursor-not-allowed
 * 大小调整 resize-none|resize-y|resize-x|resize
 * 用户选择 select-none|select-text|select-all|select-auto
