@@ -157,80 +157,80 @@ module.exports = {
 
 ## 布局
 ### 基础
-* Box Sizing box-border|box-content
-* Display  block|inline-block|inline|flex|inline-flex|grid|table|hidden...
-* 浮动 float-right|float-left|float-none
-* 清除浮动 clear-left|clear-right|clear-both|clear-none
-* Object Fit object-contain|object-cover|object-fill|object-none|object-scale-down
-* Object Position object-bottom|object-center|object-left-bottom...
-* 溢出 overflow-auto|overflow-visible|overflow-scroll|overflow-x-scroll...
-* 定位 static|fixed|absolute|relative|sticky
+* Box Sizing box-border | box-content
+* Display  block | inline-block | inline | flex | inline-flex | grid | table | hidden...
+* 浮动 float-right | float-left | float-none
+* 清除浮动 clear-left | clear-right | clear-both | clear-none
+* Object Fit object-contain | object-cover | object-fill | object-none | object-scale-down
+* Object Position object-bottom | object-center | object-left-bottom...
+* 溢出 overflow-auto | overflow-visible | overflow-scroll | overflow-x-scroll...
+* 定位 static | fixed | absolute | relative | sticky
 * Top / Right / Bottom / Left 用于控制定位元素的位置的功能类
-* 可见性 visible|invisible
-* Z-Index z-0|z-10
+* 可见性 visible | invisible
+* Z-Index z-0 | z-10
 
 ### Flex Box
-* Flex Direction flex-row|flex-row-reverse|flex-col|flex-col-reverse
-* Flex Wrap flex-wrap|flex-wrap-reverse|flex-nowrap
-* Flex flex-1|flex-auto|flex-initial|flex-none
-* Flex Grow flex-grow-0|flex-grow
-* Flex Shrink flex-shrink-0|flex-shrink
-* Order order-first|order-last|order-none|order-1|order-2...
-* Gap gap-0|gap-x-0|gap-y-0|gap-px
-* Justify Content justify-start|justify-center|justify-end|justify-between|justify-around|justify-evenly
-* Justify Items justify-items-start|justify-items-end|justify-items-center|justify-items-stretch
-* Justify Self justify-self-auto|justify-self-start|justify-self-end|justify-self-center|justify-self-stretch
-* Align Content content-center|content-start|content-end|content-between|content-around|content-evenly
-* Align Items items-start|items-end|items-center|items-baseline|items-stretch
-* Align Self self-auto|self-start|self-end|self-center|self-stretch|self-baseline
+* Flex Direction flex-row | flex-row-reverse | flex-col | flex-col-reverse
+* Flex Wrap flex-wrap | flex-wrap-reverse | flex-nowrap
+* Flex flex-1 | flex-auto | flex-initial | flex-none
+* Flex Grow flex-grow-0 | flex-grow
+* Flex Shrink flex-shrink-0 | flex-shrink
+* Order order-first | order-last | order-none | order-1 | order-2...
+* Gap gap-0 | gap-x-0 | gap-y-0 | gap-px
+* Justify Content justify-start | justify-center | justify-end | justify-between | justify-around | justify-evenly
+* Justify Items justify-items-start | justify-items-end | justify-items-center | justify-items-stretch
+* Justify Self justify-self-auto | justify-self-start | justify-self-end | justify-self-center | justify-self-stretch
+* Align Content content-center | content-start | content-end | content-between | content-around | content-evenly
+* Align Items items-start | items-end | items-center | items-baseline | items-stretch
+* Align Self self-auto | self-start | self-end | self-center | self-stretch | self-baseline
 
 ### 间距 
-* 内边距 p-0|p-px|px-0|py-0|pl-0|pt-0|pr-0|pb-0...
-* 外边距 m-0|m-px|mx-0|my-0|ml-0|mt-0|mr-0|mb-0...
-* Space Between space-x-0|space-y-0|space-x-px|space-y-px...
+* 内边距 p-0 | p-px | px-0 | py-0 | pl-0 | pt-0 | pr-0 | pb-0...
+* 外边距 m-0 | m-px | mx-0 | my-0 | ml-0 | mt-0 | mr-0 | mb-0...
+* Space Between space-x-0 | space-y-0 | space-x-px | space-y-px...
 
 ### 尺寸
-* 宽度 w-0|w-px|w-auto|w-1/2|w-full|w-screen|w-min|w-max
-* 高度 h-0|h-px|h-auto|h-1/2|h-full|h-screen
+* 宽度 w-0 | w-px | w-auto | w-1/2 | w-full | w-screen | w-min | w-max
+* 高度 h-0 | h-px | h-auto | h-1/2 | h-full | h-screen
 
 ### 排版
-* 字体大小 text-xs|text-sm|text-base|text-lg|text-xl|text-2xl...text-9xl
-* 字体样式 italic|Italics
-* 字体粗细 font-thin|font-extralight|font-light|font-normal|font-medium|font-semibold|font-bold|font-extrabold|font-black
-* 字母间距 tracking-tighter|tracking-tight|tracking-normal|tracking-wide|tracking-wider|tracking-widest
+* 字体大小 text-xs | text-sm | text-base | text-lg | text-xl | text-2xl...text-9xl
+* 字体样式 italic | Italics
+* 字体粗细 font-thin | font-extralight | font-light | font-normal | font-medium | font-semibold | font-bold | font-extrabold | font-black
+* 字母间距 tracking-tighter | tracking-tight | tracking-normal | tracking-wide | tracking-wider | tracking-widest
 * 行高 leading-3
 * 占位文本颜色 placeholder-gray-50...
 * 占位文本不透明度 placeholder-opacity-0
-* 文本对齐 text-left|text-center|text-right|text-justify
-* 文本颜色 text-transparent|text-current|text-black|text-gray-50
+* 文本对齐 text-left | text-center | text-right | text-justify
+* 文本颜色 text-transparent | text-current | text-black | text-gray-50
 * 文本颜色不透明度 text-opacity-0
-* 文本装饰 underline|line-through|no-underline
-* 文本转换 uppercase|lowercase|capitalize|normal-case
-* 文本溢出 truncate|overflow-ellipsis|overflow-clip
-* 垂直对齐 align-baseline|align-top|align-middle|align-bottom|align-text-top|align-text-bottom
-* 文本换行 break-normal|break-words|break-all
+* 文本装饰 underline | line-through | no-underline
+* 文本转换 uppercase | lowercase | capitalize | normal-case
+* 文本溢出 truncate | overflow-ellipsis | overflow-clip
+* 垂直对齐 align-baseline | align-top | align-middle | align-bottom | align-text-top | align-text-bottom
+* 文本换行 break-normal | break-words | break-all
 
 ### 背景
-* 背景图像固定 bg-fixed|bg-local|bg-scroll
-* 背景图像裁剪 bg-clip-border|bg-clip-padding|bg-clip-content|bg-clip-text
-* 背景颜色 bg-transparent|bg-current|bg-black|bg-gray-50
+* 背景图像固定 bg-fixed | bg-local | bg-scroll
+* 背景图像裁剪 bg-clip-border | bg-clip-padding | bg-clip-content | bg-clip-text
+* 背景颜色 bg-transparent | bg-current | bg-black | bg-gray-50
 * 背景颜色不透明度 bg-opacity-0
 * 背景图像位置 bg-bottom
-* 背景图像重复 bg-repeat|bg-no-repeat|bg-repeat-x|bg-repeat-round|bg-repeat-space
-* 背景图像大小 bg-auto|bg-cover|bg-contain
-* 背景图像 bg-gradient-to-t|bg-gradient-to-tr
+* 背景图像重复 bg-repeat | bg-no-repeat | bg-repeat-x | bg-repeat-round | bg-repeat-space
+* 背景图像大小 bg-auto | bg-cover | bg-contain
+* 背景图像 bg-gradient-to-t | bg-gradient-to-tr
 ```html
 <div class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 ..."></div>
 ```
 
 ### 边框 
-* 边框圆角 rounded-none|rounded-sm|rounded-xl|rounded-r|rounded-t|rounded-b|rounded-l...
-* 边框厚度 border-0|border-r-0...
+* 边框圆角 rounded-none | rounded-sm | rounded-xl | rounded-r | rounded-t | rounded-b | rounded-l...
+* 边框厚度 border-0 | border-r-0...
 * 边框颜色 border-gray-50
-* 边框样式 border-solid|border-dashed|border-dotted|border-double
+* 边框样式 border-solid | border-dashed | border-dotted | border-double
 * 分割线厚度 divide-x-0
 * 分割线颜色 divide-gray-50
-* 分割线样式 divide-solid|divide-dashed|divide-dotted|divide-double 
+* 分割线样式 divide-solid | divide-dashed | divide-dotted | divide-double 
 * 轮廓环厚度 ring-0
 * 轮廓环颜色 ring-gray-50
 
@@ -239,24 +239,24 @@ module.exports = {
 * 不透明度 opacity-0
 
 ### TRANSITIONS AND ANIMATION
-* 过渡属性 transition-none|transition-all|transition|transition-colors|transition-shadow|transition-transform
+* 过渡属性 transition-none | transition-all | transition | transition-colors | transition-shadow | transition-transform
 * 过渡持续时间 duration-75
-* 过渡计时函数 ease-linear|ease-in|ease-out|ease-in-out
+* 过渡计时函数 ease-linear | ease-in | ease-out | ease-in-out
 * 过渡延迟 delay-75
-* 动画 animate-none|animate-spin|animate-ping|animate-pulse|animate-bounce
+* 动画 animate-none | animate-spin | animate-ping | animate-pulse | animate-bounce
 
 ### 转换
-* 变换 transform|transform-gpu|transform-none
-* 变换原点 origin-center|origin-top|origin-top-right
+* 变换 transform | transform-gpu | transform-none
+* 变换原点 origin-center | origin-top | origin-top-right
 * 缩放 scale-0
 * 旋转 rotate-0
-* 平移 translate-x-0|translate-y-0
-* 倾斜 skew-x-0|skew-y-0
+* 平移 translate-x-0 | translate-y-0
+* 倾斜 skew-x-0 | skew-y-0
 
 ### 交互
-* 光标效果 cursor-auto|cursor-default|cursor-pointer|cursor-wait|cursor-text|cursor-move|cursor-help|cursor-not-allowed
-* 大小调整 resize-none|resize-y|resize-x|resize
-* 用户选择 select-none|select-text|select-all|select-auto
+* 光标效果 cursor-auto | cursor-default | cursor-pointer | cursor-wait | cursor-text | cursor-move | cursor-help | cursor-not-allowed
+* 大小调整 resize-none | resize-y | resize-x | resize
+* 用户选择 select-none | select-text | select-all | select-auto
 
 ## vscode插件/工具
 * Tailwind CSS IntelliSense
