@@ -77,7 +77,7 @@ function sideBarFe() {
       text: 'css',
       collapsible: true,
       items: [
-        {text: 'css基础', link: '/fe/css/index.md'}
+        {text: 'tailwind 使用', link: '/fe/css/tailwind.md'}
       ]
     },
     {
