@@ -22,7 +22,8 @@ module.exports = {
     //   侧边导航
     sidebar: {
       '/fe/': sideBarFe(),
-      '/book/': sideBarBook()
+      '/book/': sideBarBook(),
+      '/algorithm/': sideAlgorithm()
     },
     footer: {
       message: 'Released under the MIT License.',
@@ -34,6 +35,7 @@ module.exports = {
 function nav() {
   return [
     {text: '前端', link: '/fe/fe-home.md', activeMatch: '/fe/'},
+    {text: '算法', link: '/algorithm/diff-path2.md', activeMatch: '/algorithm/'},
     {text: '读书笔记', link: '/book/principles-of-economics-macro.md', activeMatch: '/book/'}
   ]
 }
@@ -45,6 +47,20 @@ function sideBarBook() {
       collapsible: true,
       items: [
         {text: '经济学原理-宏观(曼昆)', link: '/book/principles-of-economics-macro.md'}
+      ]
+    },
+  ]
+}
+
+function sideAlgorithm() {
+  return [
+    {
+      text: '动态规划',
+      collapsible: true,
+      items: [
+        {text: '不同路径1-LC62', link: '/algorithm/diff-path.md'},
+        {text: '不同路径2-LC63', link: '/algorithm/diff-path2.md'},
+        {text: '最小路径和-LC64', link: '/algorithm/min-path-sum.md'}
       ]
     },
   ]
