@@ -31,7 +31,7 @@ var numDecodings = function (s) {
   // 字符串为0返回0
   if (s[0] === "0") return 0;
   // 初始化动态规划数组，因为需要dp方程判断最大的位数为两位，所以需要在原始数组前面补足一位长度为m+1
-  const dp = new Array(m + 1).fill(0);
+  const dp = new Uint32Array(m + 1);
   // 补足位默认值为1，因为前两位满足两位dp方程，题解加1
   dp[0]=1;
   // 第一位设置为1，应为单个数字永远题解为1
