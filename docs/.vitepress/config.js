@@ -61,7 +61,8 @@ function sideAlgorithm() {
         {text: '不同路径1-LC62', link: '/algorithm/diff-path.md'},
         {text: '不同路径2-LC63', link: '/algorithm/diff-path2.md'},
         {text: '最小路径和-LC64', link: '/algorithm/min-path-sum.md'},
-        {text: '解码方法-LC91', link: '/algorithm/decoding-method.md'}
+        {text: '解码方法-LC91', link: '/algorithm/decoding-method.md'},
+        {text: '交叉字符串-LC97', link: '/algorithm/交叉字符串.md'}
       ]
     },
   ]
