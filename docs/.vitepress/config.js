@@ -34,7 +34,7 @@ module.exports = {
 
 function nav() {
   return [
-    {text: '前端', link: '/fe/fe-home.md', activeMatch: '/fe/'},
+    {text: '前端', link: '/fe/ts/interface.md', activeMatch: '/fe/'},
     {text: '算法', link: '/algorithm/dp/diff-path.md', activeMatch: '/algorithm/'},
     {text: '读书笔记', link: '/book/principles-of-economics-macro.md', activeMatch: '/book/'}
   ]
