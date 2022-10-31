@@ -72,6 +72,13 @@ function sideAlgorithm() {
         {text: '最长回文串-LC409', link: '/algorithm/hash-table/最长回文串.md'},
       ]
     },
+    {
+      text: '指针',
+      collapsible: true,
+      items: [
+        {text: '较大分组的位置-LC830', link: '/algorithm/hash-table/较大分组的位置.md'},
+      ]
+    },
   ]
 }
 
