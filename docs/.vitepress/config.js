@@ -76,7 +76,7 @@ function sideAlgorithm() {
       text: '指针',
       collapsible: true,
       items: [
-        {text: '较大分组的位置-LC830', link: '/algorithm/hash-table/较大分组的位置.md'},
+        {text: '较大分组的位置-LC830', link: '/algorithm/pointer/较大分组的位置.md'},
       ]
     },
   ]
