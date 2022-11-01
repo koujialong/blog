@@ -79,6 +79,13 @@ function sideAlgorithm() {
         {text: '较大分组的位置-LC830', link: '/algorithm/pointer/较大分组的位置.md'},
       ]
     },
+    {
+      text: '树',
+      collapsible: true,
+      items: [
+        {text: '收集树上所有苹果的最少时间-L1443', link: '/algorithm/tree/收集树上所有苹果的最少时间.md'},
+      ]
+    },
   ]
 }
 
