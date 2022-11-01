@@ -86,6 +86,13 @@ function sideAlgorithm() {
         {text: '收集树上所有苹果的最少时间-L1443', link: '/algorithm/tree/收集树上所有苹果的最少时间.md'},
       ]
     },
+    {
+      text: '数组',
+      collapsible: true,
+      items: [
+        {text: '判断一个数的数字计数是否等于数位的值-L2283', link: '/algorithm/array/判断一个数的数字计数是否等于数位的值.md'},
+      ]
+    },
   ]
 }
 
