@@ -77,6 +77,8 @@ function sideAlgorithm() {
       collapsible: true,
       items: [
         {text: '较大分组的位置-LC830', link: '/algorithm/pointer/较大分组的位置.md'},
+        {text: '删除有序数组中的重复项-LC26', link: '/algorithm/pointer/删除有序数组中的重复项.md'},
+        {text: '删除有序数组中的重复项II-LC80', link: '/algorithm/pointer/删除有序数组中的重复项II.md'},
       ]
     },
     {
@@ -93,6 +95,13 @@ function sideAlgorithm() {
       collapsible: true,
       items: [
         {text: '判断一个数的数字计数是否等于数位的值-L2283', link: '/algorithm/array/判断一个数的数字计数是否等于数位的值.md'},
+      ]
+    },
+    {
+      text: '字符串',
+      collapsible: true,
+      items: [
+        {text: '将句子排序-LC1859', link: '/algorithm/string/将句子排序.md'},
       ]
     },
   ]
