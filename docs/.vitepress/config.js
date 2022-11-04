@@ -160,6 +160,13 @@ function sideBarFe() {
         {text: 'React Vue Hooks对比', link: '/fe/vue3/vue-react-hooks.md'}
       ]
     },
+    {
+      text: 'nodejs',
+      collapsible: true,
+      items: [
+        {text: 'Koa2基础环境搭建', link: '/fe/nodejs/Koa2基础环境搭建.md'},
+      ]
+    },
   ]
 }
 
