@@ -95,6 +95,7 @@ function sideAlgorithm() {
       collapsible: true,
       items: [
         {text: '判断一个数的数字计数是否等于数位的值-L2283', link: '/algorithm/array/判断一个数的数字计数是否等于数位的值.md'},
+        {text: '你可以工作的最大周数-LC1953', link: '/algorithm/array/你可以工作的最大周数.md'},
       ]
     },
     {
