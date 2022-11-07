@@ -70,6 +70,7 @@ function sideAlgorithm() {
       collapsible: true,
       items: [
         {text: '最长回文串-LC409', link: '/algorithm/hash-table/最长回文串.md'},
+        {text: '总持续时间可被60整除的歌曲-LC1010', link: '/algorithm/hash-table/总持续时间可被60整除的歌曲.md'},
       ]
     },
     {
@@ -96,6 +97,7 @@ function sideAlgorithm() {
       items: [
         {text: '判断一个数的数字计数是否等于数位的值-L2283', link: '/algorithm/array/判断一个数的数字计数是否等于数位的值.md'},
         {text: '你可以工作的最大周数-LC1953', link: '/algorithm/array/你可以工作的最大周数.md'},
+        {text: '相对名次-LC506', link: '/algorithm/array/相对名次.md'},
       ]
     },
     {
