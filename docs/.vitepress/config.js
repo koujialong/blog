@@ -100,6 +100,7 @@ function sideAlgorithm() {
         {text: '你可以工作的最大周数-LC1953', link: '/algorithm/array/你可以工作的最大周数.md'},
         {text: '相对名次-LC506', link: '/algorithm/array/相对名次.md'},
         {text: '无法吃午餐的学生数量-LC1700', link: '/algorithm/array/无法吃午餐的学生数量.md'},
+        {text: '执行所有后缀指令-LC2120', link: '/algorithm/array/执行所有后缀指令.md'}
       ]
     },
     {
