@@ -80,6 +80,7 @@ function sideAlgorithm() {
         {text: '较大分组的位置-LC830', link: '/algorithm/pointer/较大分组的位置.md'},
         {text: '删除有序数组中的重复项-LC26', link: '/algorithm/pointer/删除有序数组中的重复项.md'},
         {text: '删除有序数组中的重复项II-LC80', link: '/algorithm/pointer/删除有序数组中的重复项II.md'},
+        {text: '判断子序列-LC392', link: '/algorithm/pointer/判断子序列.md'},
       ]
     },
     {
