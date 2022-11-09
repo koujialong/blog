@@ -98,6 +98,7 @@ function sideAlgorithm() {
         {text: '判断一个数的数字计数是否等于数位的值-L2283', link: '/algorithm/array/判断一个数的数字计数是否等于数位的值.md'},
         {text: '你可以工作的最大周数-LC1953', link: '/algorithm/array/你可以工作的最大周数.md'},
         {text: '相对名次-LC506', link: '/algorithm/array/相对名次.md'},
+        {text: '无法吃午餐的学生数量-LC1700', link: '/algorithm/array/无法吃午餐的学生数量.md'},
       ]
     },
     {
@@ -105,6 +106,7 @@ function sideAlgorithm() {
       collapsible: true,
       items: [
         {text: '将句子排序-LC1859', link: '/algorithm/string/将句子排序.md'},
+        {text: '向表达式添加括号后的最小结果-LC2232', link: '/algorithm/string/向表达式添加括号后的最小结果.md'}
       ]
     },
   ]
