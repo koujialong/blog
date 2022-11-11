@@ -103,7 +103,7 @@ function sideAlgorithm() {
         {text: '无法吃午餐的学生数量-LC1700', link: '/algorithm/array/无法吃午餐的学生数量.md'},
         {text: '执行所有后缀指令-LC2120', link: '/algorithm/array/执行所有后缀指令.md'},
         {text: '大小为K且平均值大于等于阈值的子数组数目-LC1343', link: '/algorithm/array/大小为K且平均值大于等于阈值的子数组数目.md'},
-
+        {text: '翻转卡片游戏-LC822', link: '/algorithm/array/翻转卡片游戏.md'},
       ]
     },
     {
