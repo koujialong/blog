@@ -91,6 +91,7 @@ function sideAlgorithm() {
         {text: '收集树上所有苹果的最少时间-L1443', link: '/algorithm/tree/收集树上所有苹果的最少时间.md'},
         {text: '具有所有最深节点的最小子树-L1865', link: '/algorithm/tree/具有所有最深节点的最小子树.md'},
         {text: '二叉树的最小深度-LC111', link: '/algorithm/tree/二叉树的最小深度.md'},
+        {text: '二叉树的中序遍历-LC94', link: '/algorithm/tree/二叉树的中序遍历.md'},
       ]
     },
     {
