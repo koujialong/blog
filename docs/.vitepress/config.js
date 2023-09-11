@@ -63,7 +63,8 @@ function sideAlgorithm() {
         {text: '最小路径和-LC64', link: '/algorithm/dp/min-path-sum.md'},
         {text: '解码方法-LC91', link: '/algorithm/dp/decoding-method.md'},
         {text: '交叉字符串-LC97', link: '/algorithm/dp/交叉字符串.md'},
-        {text:'整数拆分-LC343', link: '/algorithm/dp/整数拆分.md'}
+        {text:'整数拆分-LC343', link: '/algorithm/dp/整数拆分.md'},
+        {text:'打家劫舍2-LC213', link: '/algorithm/dp/打家劫舍2.md'}
       ]
     },
     {
