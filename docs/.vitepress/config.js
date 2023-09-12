@@ -66,7 +66,8 @@ function sideAlgorithm() {
         {text:'整数拆分-LC343', link: '/algorithm/dp/整数拆分.md'},
         {text:'打家劫舍2-LC213', link: '/algorithm/dp/打家劫舍2.md'},
         {text:'不同的二叉搜索树-LC96', link: '/algorithm/dp/不同的二叉搜索树.md'},
-        {text:'三角形最小路径和-LC120', link: '/algorithm/dp/三角形最小路径和.md'}
+        {text:'三角形最小路径和-LC120', link: '/algorithm/dp/三角形最小路径和.md'},
+        {text:'单词拆分-LC139', link: '/algorithm/dp/单词拆分.md'}
       ]
     },
     {
