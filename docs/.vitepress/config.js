@@ -67,7 +67,11 @@ function sideAlgorithm() {
         {text:'打家劫舍2-LC213', link: '/algorithm/dp/打家劫舍2.md'},
         {text:'不同的二叉搜索树-LC96', link: '/algorithm/dp/不同的二叉搜索树.md'},
         {text:'三角形最小路径和-LC120', link: '/algorithm/dp/三角形最小路径和.md'},
-        {text:'单词拆分-LC139', link: '/algorithm/dp/单词拆分.md'}
+        {text:'单词拆分-LC139', link: '/algorithm/dp/单词拆分.md'},
+        {text:'买卖股票的最佳时机-LC121', link: '/algorithm/dp/买卖股票的最佳时机.md'},
+        {text:'买卖股票的最佳时机2-LC122', link: '/algorithm/dp/买卖股票的最佳时机2.md'},
+        {text:'买卖股票的最佳时机3-LC123', link: '/algorithm/dp/买卖股票的最佳时机3.md'},
+        {text:'买卖股票的最佳时机4-LC188', link: '/algorithm/dp/买卖股票的最佳时机4.md'}
       ]
     },
     {
