@@ -71,7 +71,9 @@ function sideAlgorithm() {
         {text:'买卖股票的最佳时机-LC121', link: '/algorithm/dp/买卖股票的最佳时机.md'},
         {text:'买卖股票的最佳时机2-LC122', link: '/algorithm/dp/买卖股票的最佳时机2.md'},
         {text:'买卖股票的最佳时机3-LC123', link: '/algorithm/dp/买卖股票的最佳时机3.md'},
-        {text:'买卖股票的最佳时机4-LC188', link: '/algorithm/dp/买卖股票的最佳时机4.md'}
+        {text:'买卖股票的最佳时机4-LC188', link: '/algorithm/dp/买卖股票的最佳时机4.md'},
+        {text:'零钱兑换-LC322', link: '/algorithm/dp/零钱兑换.md'},
+        {text:'组合总和4-LC322', link: '/algorithm/dp/组合总和4.md'},
       ]
     },
     {
