@@ -73,6 +73,7 @@ function sideAlgorithm() {
         {text:'买卖股票的最佳时机3-LC123', link: '/algorithm/dp/买卖股票的最佳时机3.md'},
         {text:'买卖股票的最佳时机4-LC188', link: '/algorithm/dp/买卖股票的最佳时机4.md'},
         {text:'买卖股票的最佳时机含冷冻期-LC309', link: '/algorithm/dp/买卖股票的最佳时机含冷冻期.md'},
+        {text:'买卖股票的最佳时机含手续费-LC712', link: '/algorithm/dp/买卖股票的最佳时机含手续费.md'},
       ]
     },
     {

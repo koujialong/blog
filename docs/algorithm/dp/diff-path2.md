@@ -13,6 +13,7 @@
 2. 向下 -> 向下 -> 向右 -> 向右
 
 ## 题解
+* 动态规划
 ```javascript
 /**
  * @param {number[][]} obstacleGrid
@@ -36,5 +37,41 @@ var uniquePathsWithObstacles = function(OG) {
     }
     // 最终解为右下角单元格数值
     return dp[m-1][n-1]
+};
+```
+```javascript
+/**
+ * @param {number[][]} obstacleGrid
+ * @return {number}
+ */
+var uniquePathsWithObstacles = function(obstacleGrid) {
+    let m=obstacleGrid.length,n=obstacleGrid[0].length
+    if(obstacleGrid[0][0]===1||obstacleGrid[m-1][n-1]===1){
+        return 0
+    }
+    let isBlock=false
+    for (let i = 0; i < m; i++) {
+        if(isBlock||obstacleGrid[i][0]===1){
+            isBlock=true
+            obstacleGrid[i][0]=0
+        }else{
+            obstacleGrid[i][0]=1
+        }
+    }
+    isBlock=false
+    for (let i = 1; i < n; i++) {
+        if(isBlock||obstacleGrid[0][i]===1){
+            isBlock=true
+            obstacleGrid[0][i]=0
+        }else{
+            obstacleGrid[0][i]=1
+        }
+    }
+    for (let i = 1; i < m; i++) {
+        for (let j = 1; j < n; j++) {
+            obstacleGrid[i][j]=obstacleGrid[i][j]===1?0:(obstacleGrid[i-1][j]+obstacleGrid[i][j-1])
+        }
+    }
+    return obstacleGrid[m-1][n-1]
 };
 ```
