@@ -76,6 +76,7 @@ function sideAlgorithm() {
         {text:'买卖股票的最佳时机含手续费-LC712', link: '/algorithm/dp/买卖股票的最佳时机含手续费.md'},
         {text:'零钱兑换-LC322', link: '/algorithm/dp/零钱兑换.md'},
         {text:'组合总和4-LC322', link: '/algorithm/dp/组合总和4.md'},
+        {text:'等差数列划分-LC413', link: '/algorithm/dp/等差数列划分.md'},
       ]
     },
     {
