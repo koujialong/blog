@@ -105,6 +105,8 @@ function sideAlgorithm() {
         {text: '具有所有最深节点的最小子树-L1865', link: '/algorithm/tree/具有所有最深节点的最小子树.md'},
         {text: '二叉树的最小深度-LC111', link: '/algorithm/tree/二叉树的最小深度.md'},
         {text: '二叉树的中序遍历-LC94', link: '/algorithm/tree/二叉树的中序遍历.md'},
+        {text: '实现 Trie (前缀树)-LC208', link: '/algorithm/tree/实现 Trie (前缀树).md'},
+        {text: '翻转二叉树-LC226', link: '/algorithm/tree/翻转二叉树.md'},
       ]
     },
     {
@@ -118,6 +120,7 @@ function sideAlgorithm() {
         {text: '执行所有后缀指令-LC2120', link: '/algorithm/array/执行所有后缀指令.md'},
         {text: '大小为K且平均值大于等于阈值的子数组数目-LC1343', link: '/algorithm/array/大小为K且平均值大于等于阈值的子数组数目.md'},
         {text: '翻转卡片游戏-LC822', link: '/algorithm/array/翻转卡片游戏.md'},
+        {text: '数组中的第K个最大元素-LC215', link: '/algorithm/array/数组中的第K个最大元素.md'},
       ]
     },
     {
@@ -126,6 +129,13 @@ function sideAlgorithm() {
       items: [
         {text: '将句子排序-LC1859', link: '/algorithm/string/将句子排序.md'},
         {text: '向表达式添加括号后的最小结果-LC2232', link: '/algorithm/string/向表达式添加括号后的最小结果.md'}
+      ]
+    },
+    {
+      text: '拓扑排序',
+      collapsible: true,
+      items: [
+        {text: '课程表-LC207', link: '/algorithm/topological-sort/课程表.md'},
       ]
     },
   ]
