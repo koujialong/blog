@@ -77,6 +77,7 @@ function sideAlgorithm() {
         {text:'零钱兑换-LC322', link: '/algorithm/dp/零钱兑换.md'},
         {text:'组合总和4-LC322', link: '/algorithm/dp/组合总和4.md'},
         {text:'等差数列划分-LC413', link: '/algorithm/dp/等差数列划分.md'},
+        {text:'乘积最大子数组-LC152', link: '/algorithm/dp/乘积最大子数组.md'},
       ]
     },
     {
@@ -121,6 +122,8 @@ function sideAlgorithm() {
         {text: '大小为K且平均值大于等于阈值的子数组数目-LC1343', link: '/algorithm/array/大小为K且平均值大于等于阈值的子数组数目.md'},
         {text: '翻转卡片游戏-LC822', link: '/algorithm/array/翻转卡片游戏.md'},
         {text: '数组中的第K个最大元素-LC215', link: '/algorithm/array/数组中的第K个最大元素.md'},
+        {text: '多数元素-LC169', link: '/algorithm/array/多数元素.md'},
+        {text: '除自身以外数组的乘积-LC238', link: '/algorithm/array/除自身以外数组的乘积.md'},
       ]
     },
     {
@@ -136,6 +139,20 @@ function sideAlgorithm() {
       collapsible: true,
       items: [
         {text: '课程表-LC207', link: '/algorithm/topological-sort/课程表.md'},
+      ]
+    },
+    {
+      text: '链表',
+      collapsible: true,
+      items: [
+        {text: '反转链表-LC206', link: '/algorithm/linked/反转链表.md'},
+      ]
+    },
+    {
+      text: '栈',
+      collapsible: true,
+      items: [
+        {text: '最小栈-LC155', link: '/algorithm/stack/最小栈.md'},
       ]
     },
   ]
