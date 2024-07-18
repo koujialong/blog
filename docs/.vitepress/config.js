@@ -146,6 +146,9 @@ function sideAlgorithm() {
       collapsible: true,
       items: [
         {text: '反转链表-LC206', link: '/algorithm/linked/反转链表.md'},
+        {text: '排序链表-LC148', link: '/algorithm/linked/排序链表.md'},
+        {text: 'LRU缓存-LC146', link: '/algorithm/linked/LRU缓存.md'},
+        {text: '环形链表 II-LC142', link: '/algorithm/linked/环形链表II.md'},
       ]
     },
     {
