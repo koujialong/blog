@@ -124,6 +124,7 @@ function sideAlgorithm() {
         {text: '数组中的第K个最大元素-LC215', link: '/algorithm/array/数组中的第K个最大元素.md'},
         {text: '多数元素-LC169', link: '/algorithm/array/多数元素.md'},
         {text: '除自身以外数组的乘积-LC238', link: '/algorithm/array/除自身以外数组的乘积.md'},
+        {text: '最长连续序列-LC128', link: '/algorithm/array/最长连续序列.md'},
       ]
     },
     {
@@ -131,7 +132,9 @@ function sideAlgorithm() {
       collapsible: true,
       items: [
         {text: '将句子排序-LC1859', link: '/algorithm/string/将句子排序.md'},
-        {text: '向表达式添加括号后的最小结果-LC2232', link: '/algorithm/string/向表达式添加括号后的最小结果.md'}
+        {text: '向表达式添加括号后的最小结果-LC2232', link: '/algorithm/string/向表达式添加括号后的最小结果.md'},
+        {text: '回文子串-LC647', link: '/algorithm/string/回文子串.md'}
+
       ]
     },
     {
