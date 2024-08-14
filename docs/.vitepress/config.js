@@ -198,6 +198,7 @@ function sideBarFe() {
       text: 'vue',
       collapsible: true,
       items: [
+        {text: 'vue数据响应式原理', link: '/fe/vue/vue数据响应式原理.md'},
         {text: 'VitePress搭建博客', link: '/fe/vue/vite-press.md'},
         {text: 'window.onresize Vue坑点', link: '/fe/vue/window-onresize.md'},
       ]
